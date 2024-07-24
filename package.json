@@ -8,7 +8,16 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "license": "MIT",
+  "private": false,
+  "author": {
+    "name": "Chad Smith",
+    "email": "chad.e.smith@outlook.com",
+    "url": "https://codingbychad.com"
+  },
+  "repository": {
+    "url": "https://github.com/ChadESmith42/ngx-time-since-demo"
+  },
   "dependencies": {
     "@angular/animations": "^17.2.0",
     "@angular/common": "^17.2.0",
@@ -18,6 +27,7 @@
     "@angular/platform-browser": "^17.2.0",
     "@angular/platform-browser-dynamic": "^17.2.0",
     "@angular/router": "^17.2.0",
+    "ngx-time-since": "^0.0.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"

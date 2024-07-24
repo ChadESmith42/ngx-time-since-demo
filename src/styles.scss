@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  display: grid;
+  grid-template-rows: [startHeader] auto [endHeader startMain] 80vh [endMain startFooter] auto [endFooter];
+
+  header {
+    grid-row: startHeader / endHeader;
+  }
+  main {
+    min-height: 75vh;
+    grid-row: startMain / endMain;
+  }
+  footer {
+    grid-row: startFooter / endFooter;
+  }
+}

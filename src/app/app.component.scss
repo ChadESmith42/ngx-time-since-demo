@@ -1,0 +1,27 @@
+p {
+  margin: 0 0 2rem 1rem;
+}
+
+p:nth-child(1) {
+  margin-top: 2rem;
+}
+
+.flex-rows {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.flex-item {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2rem;
+}
+
+.input {
+  font-weight: 500;
+}
+
+.original-time, .new-time {
+  font-weight: bold;
+}
